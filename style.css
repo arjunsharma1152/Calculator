@@ -1,0 +1,48 @@
+html {
+    padding: 0;
+    justify-content: center;
+    }
+
+body{
+    background-color: #2b6777;
+    }
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#display {
+    width:  560px;
+    height: 70px;
+    margin: auto;
+    border-radius: 2px;
+    text-align: right;
+    font-size: 3rem;
+    border-radius: 1rem;
+    background-color: #c8d8e4;
+    }
+
+
+table {
+    margin: auto;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #52ab98;
+    width: 10vw;
+    height: 12vh;
+    padding: auto;
+    margin: auto ;
+    font-size: 25px;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    }
+
+button:hover {
+    background-color: grey;
+    }
+
