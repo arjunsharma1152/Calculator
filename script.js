@@ -2,10 +2,14 @@ let screen = document.getElementById('display');
 
 let screenValue = '';
 
-let a;
+let button=document.querySelector('table');
 
-function func(a)
+button.addEventListener('click',func);
+
+function func(e)
 {
+    var a=e.target.textContent;
+    console.log(a);
          if (a == 'C') {
             screenValue = "";
             screen.innerHTML = screenValue;
